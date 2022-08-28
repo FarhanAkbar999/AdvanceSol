@@ -1,0 +1,1104 @@
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.text-center {
+    text-align: center;
+}
+iframe {
+    border: 0
+}
+.filters .close-filter, .filters .filter-show {
+    display: none;
+}
+.button {
+    transition: background-color .5s
+}
+
+.button:hover {
+    background-color: #286a83
+}
+
+.bilt-video-frame a {
+    position: relative;
+    margin: -48px 8px 0 auto;
+    display: block;
+    width: 128px;
+    padding: 12px
+}
+
+.samples {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .29)
+}
+
+.samples .img-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 21.5%;
+    vertical-align: top
+}
+
+.samples .img-wrapper img {
+    position: absolute
+}
+
+.samples .container {
+    display: inline-block;
+    width: 70%;
+    max-width: 100%;
+    padding: 18px 0 12px;
+    vertical-align: top
+}
+
+.samples .info,
+.sample-carousel {
+    display: inline-block;
+    vertical-align: top
+}
+
+.samples .info {
+    width: 23%;
+    margin-right: 10%
+}
+
+.samples h2 {
+    max-width: 256px;
+    margin-top: 32px;
+    font-size: 30px;
+    line-height: 1.25em
+}
+
+.samples .info span {
+    display: block;
+    margin: 32px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #bd5b00
+}
+
+.samples .info p {
+    font-size: 20px;
+    line-height: 1.25em
+}
+
+.samples .info .button {
+    display: block;
+    width: 224px;
+    margin-top: 24px;
+    padding: 14px 0;
+    font-size: 18px
+}
+
+.sample-carousel {
+    width: 66%;
+    text-align: center
+}
+
+.sample-carousel .slick-slide,
+.reviews-carousel .slick-slide .sample {
+    margin: 12px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .29);
+    overflow: hidden
+}
+
+.sample-carousel .slick-slide img,
+.reviews-carousel .slick-slide img {
+    margin: 8px auto -8px
+}
+
+.sample-carousel h3,
+.reviews-carousel h3 {
+    margin: 8px 0 12px;
+    font-family: open sans condensed;
+    font-size: 14px;
+    text-transform: uppercase
+}
+
+.sample-carousel a.button,
+.reviews-carousel a.button {
+    display: block;
+    width: 90%;
+    max-width: 168px;
+    margin: 8px auto 0;
+    padding: 6px 0;
+    font-size: 12px
+}
+
+.sample-carousel a.button+a,
+.reviews-carousel a.button+a {
+    color: #111;
+    background-color: #ddd
+}
+
+.start {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 64px 32px;
+    text-align: center
+}
+
+.start h2 {
+    margin: 0 0 54px;
+    font-size: 36px
+}
+
+.start h3 {
+    margin: 32px 0 16px;
+    line-height: 1em;
+    font-size: 30px;
+    font-weight: 400;
+    white-space: nowrap
+}
+
+.start ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.start a {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    white-space: nowrap
+}
+
+.kitchens {
+    padding: 54px;
+    text-align: center;
+    color: #000;
+    background: url(../images/inspiration-bg.jpg) no-repeat;
+    background-size: cover
+}
+
+.kitchens .container {
+    max-width: 1732px;
+    margin: 0 auto;
+    padding: 0 48px
+}
+
+.kitchens h2 {
+    font-size: 36px;
+    line-height: 1em
+}
+
+.kitchens h3 {
+    margin: 4px 0 60px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1em
+}
+
+.kitchens .button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 16px 0
+}
+
+.kitchens .slick-slide {
+    padding: 0 28px;
+    overflow: hidden
+}
+
+.kitchens .slick-dots {
+    margin: 32px 0 20px
+}
+
+.completed-kitchens span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.category {
+    margin: 0 auto;
+    max-width: 1492px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    text-align: center
+}
+
+.category h2 {
+    margin-bottom: 72px;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.category h3 {
+    margin: 32px 0 24px;
+    font-size: 24px;
+    font-weight: 400
+}
+
+.category li {
+    width: 23%;
+    display: inline-block;
+    margin-bottom: 72px
+}
+
+.category li+li {
+    margin-left: 2%
+}
+
+.category a {
+    text-decoration: none;
+    color: inherit
+}
+
+.category img {
+    max-width: 100%;
+    height: auto
+}
+
+.category .button {
+    display: block;
+    max-width: 326px;
+    margin: 0 auto;
+    padding: 16px 0;
+    font-size: 18px;
+    color: #eee;
+    background-color: #185a73
+}
+
+.reviews {
+    position: relative;
+    padding: 28px 0;
+    color: #000;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, .29) 0 3px 6px
+}
+
+.reviews .container {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+.reviews h2 {
+    margin-bottom: 54px;
+    font-size: 36px
+}
+
+.reviews h2 a {
+    color: inherit;
+    text-decoration: none
+}
+
+.reviews-carousel .sample,
+.reviews-carousel .review {
+    display: inline-block;
+    vertical-align: top
+}
+
+.reviews-carousel .review {
+    width: 42%;
+    margin-top: 48px;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 18px
+}
+
+.reviews-carousel .review span {
+    display: block;
+    margin-top: 4px;
+    font-weight: 700
+}
+
+.reviews-carousel .review span:before {
+    content: '-'
+}
+
+.reviews .button {
+    display: block;
+    width: 256px;
+    margin: 24px auto;
+    padding: 16px 0
+}
+
+.video {
+    padding: 78px 0;
+    text-align: center
+}
+
+.video iframe {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 32px
+}
+
+.video img {
+    max-width: 100%;
+    height: auto
+}
+
+.video .button {
+    display: block;
+    width: 256px;
+    margin: 24px auto;
+    padding: 16px 0
+}
+
+.contractors {
+    padding: 128px 24px;
+    text-align: center;
+    color: #000;
+    background: url(../images/bg-1.jpg) center center no-repeat
+}
+
+.contractors .intro {
+    padding: 24px;
+    line-height: 1.5em
+}
+
+.contractors h2 {
+    margin: 0;
+    font-size: 30px
+}
+
+.contractors p {
+    margin: 0 0 10px;
+    font-size: 18px
+}
+
+.contractors .button {
+    display: block;
+    width: 256px;
+    margin: 0 auto;
+    padding: 16px 0;
+    color: #fff;
+    font-size: 18px
+}
+
+.low-price {
+    max-width: 956px;
+    margin: 0 auto;
+    padding: 112px 24px;
+    text-align: center
+}
+
+.low-price h2 {
+    max-width: 510px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.25em
+}
+
+.low-price strong {
+    display: block
+}
+
+.low-price strong:before,
+.low-price strong:after {
+    content: '"'
+}
+
+.low-price p {
+    margin: 24px 0 32px;
+    line-height: 1.5em
+}
+
+.low-price .button {
+    display: block;
+    width: 256px;
+    margin: 0 auto;
+    padding: 16px 0;
+    color: #fff;
+    font-size: 18px
+}
+
+.slick-slider .slick-arrow {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    width: 54px;
+    height: 54px;
+    border: 0;
+    background-color: #185a73;
+    line-height: 1em;
+    border-radius: 10px;
+    transition: all .5s;
+    font-size:25px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slick-slider .slick-arrow:hover {
+    width: 64px;
+    height: 64px;
+    top: calc(35% - 5px);
+    background-color: #59accc
+}
+
+.slick-slider .slick-prev {
+    left: -72px;
+    
+    text-align: left
+}
+
+.slick-slider .slick-prev:hover {
+    left: -77px;
+}
+
+.slick-slider .slick-next {
+    right: -72px;
+ 
+    text-align: right;
+}
+
+.slick-slider .slick-next:hover {
+    right: -77px;
+}
+
+.slick-dots {
+    margin-top: 12px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    border: 2px solid #185A73;
+    border-radius: 50%;
+    text-indent: -4096px;
+}
+
+.slick-dots li.slick-active {
+    background-color: #185a73;
+}
+.ad-banner {
+    text-align: center;
+}
+.ad-banner img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:1722px) {
+    .samples .img-wrapper {
+        width: 18%
+    }
+    .samples .img-wrapper img {
+        right: 24px
+    }
+    .samples .container {
+        width: 74%
+    }
+    .kitchens .container {
+        padding: 0 128px
+    }
+    .kitchens .slick-slider .slick-next {
+        right: -100px
+    }
+}
+
+@media (max-width: 1600px) {
+    .sample-carousel .slick-slide img {
+        margin-left: -8px
+    }
+}
+
+@media (max-width: 1500px) {
+    .sample-carousel .slick-slide img {
+        margin-left: -20px
+    }
+    .reviews .container {
+        width: 80%
+    }
+}
+
+@media (max-width: 1400px) {
+    .sample-carousel .slick-slide img {
+        margin-left: -24px
+    }
+}
+
+@media (max-width: 1350px) {
+    .samples .info {
+        margin-right: 8%
+    }
+    .sample-carousel {
+        width: 68%
+    }
+    .samples h2 {
+        max-width: 192px
+    }
+    .samples h2,
+    .samples .info span {
+        font-size: 20px
+    }
+    .samples .info span {
+        margin: 16px 0
+    }
+    .samples .info p {
+        font-size: 14px
+    }
+    .samples .info .button {
+        font-size: 14px
+    }
+    .sample-carousel .slick-slide img,
+    .reviews-carousel .slick-slide img {
+        width: 144px;
+        height: auto;
+        margin-left: auto
+    }
+    .kitchens .container {
+        padding: 0
+    }
+    .kitchens .slick-slider {
+        margin-left: -16px
+    }
+    .kitchens .slick-slider .slick-prev {
+        left: 10px
+    }
+    .kitchens .slick-slider .slick-next {
+        right: -2%
+    }
+    .reviews .container {
+        width: 94%
+    }
+    .reviews-carousel .review {
+        margin-top: 32px
+    }
+    .slick-slider .slick-arrow {
+        width: 34px;
+        height: 34px
+    }
+    .slick-slider .slick-arrow:hover {
+        width: 44px;
+        height: 44px
+    }
+    .slick-slider .slick-arrow img {
+        width: 16px
+    }
+    .slick-slider .slick-prev {
+        left: -6px;
+        padding-left: 9px
+    }
+    .slick-slider .slick-prev:hover {
+        left: -11px;
+    }
+    .slick-slider .slick-next {
+        right: -6px;
+        padding-right: 9px;
+    }
+    .slick-slider .slick-next:hover {
+        right: -11px;
+    }
+}
+
+@media (max-width:1120px) {
+    .samples .img-wrapper {
+        display: none;
+    }
+    .samples .container {
+        width: 100%;
+    }
+    .samples .info {
+        margin-left: 24px;
+        margin-right: 6%;
+    }
+    .sample-carousel {
+        width: 62%;
+    }
+    .start {
+        max-width: 980px;
+        padding-top: 44px;
+    }
+    .start h2 {
+        margin-bottom: 36px;
+        font-size: 20px;
+    }
+    .start img {
+        width: 52px;
+        height: auto;
+    }
+    .start h3 {
+        margin: 20px 0 12px 0;
+        font-size: 18px;
+    }
+    .start a {
+        font-size: 14px;
+    }
+    .kitchens {
+        padding: 32px;
+    }
+    .kitchens h2 {
+        font-size: 20px;
+    }
+    .kitchens h3 {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .category {
+        margin: 44px auto;
+        margin-bottom: 0;
+    }
+    .category li div {
+        height: 150px;
+        overflow: hidden;
+    }
+    .category li div img {
+        margin-top: -12%;
+    }
+    .category h2 {
+        margin-bottom: 44px;
+        font-size: 20px;
+    }
+    .category h3 {
+        margin: 24px 0 12px;
+        font-size: 18px;
+    }
+    .category .button {
+        width: 230px;
+        font-size: 14px;
+    }
+    .reviews {
+        padding-top: 32px;
+    }
+    .reviews h2 {
+        margin-bottom: 32px;
+        font-size: 28px;
+    }
+    .reviews-carousel .review {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1023px) {
+    .category {
+        padding: 0 16px;
+    }
+    .category li {
+        display: block;
+        width: 100%;
+    }
+    .category li,
+    .category li+li {
+        margin: 0 0 32px 0;
+    }
+    .category h2 {
+        margin-bottom: 36px;
+        font-size: 18px;
+    }
+    .category .button {
+        width: 256px;
+        padding: 12px 0;
+    }
+}
+
+@media (max-width:850px) {
+    .samples .info .button {
+        width: auto;
+    }
+    .sample-carousel a.button {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:750px) {
+    .bilt-video-frame a {
+        margin-top: -34px;
+        padding: 4px;
+    }
+    .samples .info,
+    .sample-carousel {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .sample-carousel {
+        width: calc(94% - 16px);
+        margin: 0 auto;
+    }
+    .samples h2 {
+        max-width: 100%;
+        margin-top: 12px;
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+    .samples .info>span {
+        margin: 8px 0 12px 0;
+        font-size: 18px;
+    }
+    .samples .info .button.desktop {
+        display: none;
+    }
+    .button.mobile {
+        display: block;
+        width: 220px;
+        margin: 8px auto 24px auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .samples .mobile {
+        display: block;
+    }
+    .samples .mobile .info {
+        margin-left: 0;
+    }
+    .samples .mobile p {
+        margin: 0;
+    }
+    .samples .info.desktop {
+        display: none;
+    }
+    .start h2 {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    .start ul {
+        display: block;
+    }
+    .start li {
+        margin-top: 44px;
+    }
+    .start h3 {
+        margin-top: 16px;
+    }
+    .kitchens .container {
+        max-width: 492px;
+    }
+    .kitchens h2 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .kitchens h3 {
+        margin-top: 0;
+    }
+    .kitchens .slick-slider {
+        margin-left: -20px;
+    }
+    .kitchens .slick-slider .slick-next {
+        right: -3%;
+    }
+    .reviews .container {
+        width: 100%;
+    }
+    .reviews h2 {
+        font-size: 18px;
+    }
+    .reviews-carousel .slick-slide .sample {
+        width: 40%;
+        margin-right: 6%;
+        margin-left: -2%;
+    }
+    .reviews-carousel .review {
+        width: 34%;
+        font-size: 12px;
+    }
+    .reviews-carousel .review img {
+        width: 80px;
+    }
+    .reviews-carousel .slick-slider .slick-prev {
+        left: 16px;
+        top: 36%;
+    }
+    .reviews-carousel .slick-slider .slick-next {
+        right: 16px;
+        top: 36%;
+    }
+    .video img {
+        max-width: 92%;
+        margin: 0 4%;
+    }
+    .contractors {
+        padding: 64px 0;
+    }
+    .contractors p {
+        margin: 16px 0 24px 0;
+        line-height: 1.25em;
+        font-size: 16px;
+    }
+    .contractors .button {
+        font-size: 16px;
+    }
+    .low-price h2 {
+        font-size: 20px;
+    }
+    .low-price p {
+        font-size: 14px;
+    }
+    .low-price .button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:450px) {
+    .kitchens .slick-slider .slick-next {
+        right: -5%;
+    }
+}
+.filter-room-sort.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 4% 16px 4%;
+    background: #fff;
+    z-index: 1;
+}
+@media (max-width: 1024px) {
+.filters .close-filter {
+    display: block;
+    margin-left: auto;
+    text-align: right;
+    padding: 20px;
+    font-size: 24px;
+    color: #919191;
+}
+}
+/* --------------------------------------- */
+.track-progress {
+    margin: 0 0 1em 2em;
+    padding: 1em 0 0;
+    overflow: hidden
+}
+.track-progress li {
+    width: 20%;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: top;
+    background-color: #f0f0f0;
+    float: left
+}
+.track-progress[data-steps="3"] li {
+    width: 33.3%
+}
+.track-progress[data-steps="4"] li {
+    width: 25%
+}
+.track-progress[data-steps="5"] li {
+    width: 20%
+}
+.track-progress[data-steps="6"] li {
+    width: 16.5%
+}
+.track-progress li>span {
+    display: block;
+    color: #999;
+    font-size: .8em;
+    font-weight: 700
+}
+.track-progress li>span a {
+    text-decoration: none;
+    border: 0
+}
+.track-progress li.done>span {
+    background: #418415
+}
+.track-progress li.done>span a {
+    color: #fff
+}
+.track-progress li.done+li>span:before {
+    border-left-color: #418415
+}
+.track-progress li:first-child>span:after,
+.track-progress li:first-child>span:before {
+    display: none
+}
+.track-progress li>span:after,
+.track-progress li>span:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid transparent;
+    border-left-color: #f0f0f0;
+    border-width: 15px
+}
+.track-progress li>span:after {
+    top: -5px;
+    z-index: 1;
+    border-left-color: #fff;
+    border-width: 20px
+}
+.track-progress li>span:before {
+    z-index: 2
+}
+.track-progress li:first-child i,
+.track-progress li:last-child i {
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid transparent;
+    border-left-color: #fff;
+    border-width: 15px
+}
+.track-progress li:last-child i {
+    left: auto;
+    right: -15px;
+    border-left-color: transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff
+}
+.login-box {
+    float: left;
+    width: 41.5%;
+    max-width: 450px;
+    margin-top: 2%;
+    padding: 1% 4%;
+}
+.register-box {
+    float: left;
+    width: 41.5%;
+    max-width: 450px;
+    margin-top: 2%;
+    padding: 1% 4%;
+}
+#box-login {
+    padding-bottom: 128px;
+    border-right: 1px solid #ddd;
+}
+.register-box h1, .register-box h2, .login-box h1, .login-box h2, .more-box h1, .more-box h2, .register-page h1, .register-page h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.3;
+}
+.register-box p, .login-box p, .more-box p, .register-page p {
+    margin-bottom: 1em;
+    font-size: .8em;
+}
+.login-box fieldset {
+    border: 1px solid #818181;
+    margin: 1em 0;
+    padding: 0 1em 1em;
+    line-height: 1.5em;
+    width: auto;
+}
+.login-box .callbox {
+    margin: 5% 0;
+    padding: 4% 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+}
+.login-box fieldset legend {
+    display: none;
+}
+.login-box .field {
+    top: 0;
+    left: 0;
+    margin: 0 1em 1em 0;
+}
+.login-box input[type=text], .login-box input[type=password], .login-box input[type=email], .more-box input[type=text], .more-box input[type=password], .more-box input[type=email] {
+    padding: 6px;
+    border-color: #aaa;
+}
+.login-box .callbox input {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+}
+.register-box ul, .register-page ul {
+    margin: 0 0 1em 1em;
+    padding: 0;
+}
+.register-box li, .register-page li {
+    font-size: .8em;
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    padding-left: 12px;
+}
+.register-box li::before, .register-page li::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #666;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top:5px;
+}
+.more-box {
+    float: left;
+    width: 41.5%;
+    max-width: 450px;
+    margin-top: 2%;
+    padding: 1% 4%;
+}
+#box-guest input[type=email] {
+    width: 50%;
+    margin: 0;
+    padding-bottom: 7px;
+}
+#box-guest input[type=submit] {
+    margin-left: -8px;
+    padding: 6px;
+    width: 50%;
+    border: 1px solid #aaa;
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+    float: right;
+}
+.register-page input[type=text], .register-page input[type=password], .register-page input[type=email] {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 1em 0;
+    padding: 6px;
+    border-color: #aaa;
+}
+.register-page {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 800px) {
+.login-box, .register-box, .more-box {
+    float: none;
+    width: 92%;
+    padding-top: 4px;
+}
+#box-login {
+    border-right: none;
+    padding-bottom: 30px;
+}
+.track-progress {
+    display: none;
+}
+.register-page {
+    margin-top: 20px;
+}
+}

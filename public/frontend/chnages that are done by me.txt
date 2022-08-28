@@ -1,0 +1,88 @@
+logo position to left using padding-left in the html code line 99
+
+green color hex 00b300
+golden color hex c4a82c
+
+For arabic font put
+class="droid-arabic-kufi"  style="text-align:right;"
+
+for flipping progress bar
+dir="rtl"
+
+to shift the object or text on right side
+dir="rtl"
+
+For text alignement to the right. Put this in the tag like <p style="text-align:center;">
+style="text-align:right;"
+
+
+Increasing the font size by putting it in html code
+style="font-size:25px;"
+
+for hover over and change color
+.header-navigation__nav li:hover{
+  background-color: black;
+}
+
+
+Arabic font addition in css https://codepen.io/mdjasper/pen/Fzjtg
+in css put
+/*This is new font i added for arabic*/
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+
+Commented from 242 line
+ 
+
+for arabic on top html write
+<html dir="rtl" lang="ar">
+
+
+If we need to put some position arabic
+<cite dir="rtl">مدخل إلى <span dir="ltr">C++</span></cite>
+
+
+line 310 chnages
+    <!--<h3 class="video-cta-content__title">We are Best construction in the world</h3>-->
+    <h3 class="video-cta-content__title"><cite dir="rtl" lang="ar">مدخل إلى </cite></h3>
+
+
+line 312 chnages
+<p class="video-cta-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+
+to
+
+                        <p class="video-cta-content__text"><cite dir="rtl" lang="ar">مإننا فى الجمعية نؤمن إيمانا راسخا بأن نمونا وتطورنا الملحوظ لم يكن وليد فراغ بل هو ثمرة قصة كفاح ونجاح على مدى الثلاثين  عاماً الماضية وهو الأمر الذي يجعلنا نفخر ونعتز بما حققناه من مشروعات وإنجازات للمساهمين والمتعاملين مع  الجمعية التعاونية لموظفى بالخطوط السعودية. اسمحوا لنا أن نستعرض معكم التحسين المستمر في أداء عملنا، حيث كان دائماً في قلب وعقل الجميع تحقيق المزيد والمزيد من النماء والتطوير لتقديم خدمات واستثمارات متكاملة وفقا لأفضل المعايير وأساليب التكنولوجيا الحديثة، وذلك بالتعاون مع أكبر الشركات المتخصصة في مجال تكنولوجيا المعلومات في المنطقة العربية لتحقيق… ...
+
+</cite></p>
+                        <a href="contact.html" class="ht-btn ht-btn--round">CONTACT US</
+
+
+
+line315 chnages from
+                       <a href="contact.html" class="ht-btn ht-btn--round">CONTACT US</a>
+                    </div>
+
+to
+
+
+line 309 chnages 
+                        <!--<h4 class="video-cta-content__small-title">ABOUT US</h4>-->
+                        <h4 class="video-cta-content__small-title"></h4>
+
+line 364 chnages
+                                                <a href="project-details.html">
+                                                    <img src="assets/img/service/service1.jpg" class="img-fluid" alt="">
+                                                </a>
+ 
+
+line 372 chnages
+<a href="project-details.html">Land Minning</a>
+to 
+<a href="project-details.html"><cite dir="rtl" lang="ar">مدخل إلى </cite></a>
+
+
+FOR ADDING GOOD ARABIC FONT 
+
+<a href="contact.html" class="ht-btn ht-btn--round" class="droid-arabic-kufi">مالمزيد  </a>
+
